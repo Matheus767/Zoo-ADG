@@ -19,7 +19,7 @@ out.print( "Dúvida: " + vduvida + "<br>");
 String banco = "zoo_adg";
 String usuario = "root";
 String senha = "";
-String url = "jdbc:mysql://localhost:3306/SITE" + banco;
+String url = "jdbc:mysql://localhost:3306/zoo_adg" + banco;
 String driver = "com.mysql.jdbc.Driver";
 
 Class.forName(driver);
